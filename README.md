@@ -7,6 +7,8 @@ Convert files to Markdown using [Cloudflare Workers AI](https://developers.cloud
 
 Works as a **CLI** and as a **Node.js library** — zero runtime dependencies.
 
+![mkdn demo](demo/demo.gif)
+
 ## Install
 
 ```bash
