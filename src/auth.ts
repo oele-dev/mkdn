@@ -18,6 +18,12 @@ function configPath(): string {
 }
 
 export function getConfig(): MkdnConfig | null {
+  const envAccountId = process.env.CLOUDFLARE_ACCOUNT_ID;
+  const envApiToken = process.env.CLOUDFLARE_API_TOKEN;
+  if (envAccountId && envApiToken) {
+    return { accountId: envAccountId, apiToken: envApiToken };
+  }
+
   const path = configPath();
   if (!existsSync(path)) return null;
   try {
