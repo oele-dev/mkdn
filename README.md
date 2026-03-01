@@ -1,7 +1,7 @@
 # mkdn
 
-[![npm version](https://img.shields.io/npm/v/mkdn.svg)](https://www.npmjs.com/package/mkdn)
-[![license](https://img.shields.io/npm/l/mkdn.svg)](https://github.com/oele-dev/mkdn/blob/main/LICENSE)
+[![npm version](https://img.shields.io/npm/v/@oele_dev/mkdn.svg)](https://www.npmjs.com/package/@oele_dev/mkdn)
+[![license](https://img.shields.io/npm/l/@oele_dev/mkdn.svg)](https://github.com/oele-dev/mkdn/blob/main/LICENSE)
 
 Convert files to Markdown using [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/features/markdown-conversion/).
 
@@ -10,13 +10,13 @@ Works as a **CLI** and as a **Node.js library** — zero runtime dependencies.
 ## Install
 
 ```bash
-npm install -g mkdn
+npm install -g @oele_dev/mkdn
 ```
 
 Or use directly with npx:
 
 ```bash
-npx mkdn file.pdf
+npx @oele_dev/mkdn file.pdf
 ```
 
 ## Setup

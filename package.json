@@ -1,12 +1,12 @@
 {
-  "name": "mkdn",
+  "name": "@oele_dev/mkdn",
   "version": "1.0.0",
   "description": "Convert files to Markdown using Cloudflare Workers AI",
   "type": "module",
   "main": "./dist/src/index.js",
   "types": "./dist/src/index.d.ts",
   "bin": {
-    "mkdn": "./dist/src/cli.js"
+    "mkdn": "dist/src/cli.js"
   },
   "exports": {
     ".": {
